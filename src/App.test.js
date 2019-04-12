@@ -11,5 +11,6 @@ it('renders without crashing', () => {
 
 it('should render the text', () => {
 		const { getByText } = render(<App />);
-		expect(getByText('Edit!!!!!').toBeTruthy());
+		expect(getByText('src/App.js')).toBeTruthy();
 });
+
